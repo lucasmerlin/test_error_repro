@@ -1,0 +1,10 @@
+[package]
+name = "test_error_repro"
+version = "0.1.0"
+edition = "2021"
+
+
+[profile.dev]
+codegen-backend = "cranelift"
+
+[dependencies]
